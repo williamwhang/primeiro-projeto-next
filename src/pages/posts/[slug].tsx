@@ -54,7 +54,8 @@ export const getServerSideProps: GetServerSideProps = async ({ req, params }) =>
     };
 
     return {
-        props:
+        props: {
             post,
+        }
     }
 }
