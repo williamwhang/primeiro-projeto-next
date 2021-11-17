@@ -5,7 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { RichText } from "prismic-dom";
 import { useEffect } from "react";
-
 import { getPrismicClient } from "../../../services/prismic";
 
 import styles from '../post.module.scss'
@@ -59,9 +58,7 @@ export default function PostPreview({ post }: PostPreviewProps) {
 export const getStaticPaths: GetStaticPaths = async () => {
     
     return {
-        paths: [
-            { params: { slug: 'obtendo-o-status-de-progresso-do-envio-de-dados-com'}}
-        ],
+        paths: [],
         fallback: 'blocking'
     }
 }

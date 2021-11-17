@@ -12,4 +12,4 @@ export const stripe = new Stripe(
     }
 )
 
-stripe.checkout.sessions.create
+// stripe.checkout.sessions.create
