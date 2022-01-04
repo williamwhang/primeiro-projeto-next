@@ -11,7 +11,7 @@
 
 ## 📚 Informações sobre o projeto
 
-Esse projeto foi desenvolvido durante o Ignite da Rocketseat! A ideia era desenvolver do um blog pago onde o usuário loga usando o GitHub e paga sua inscrição usando o Stripe. Usuários que não possuem a inscrição, só conseguem ver alguns parágrafos iniciais do post, orefecendo a inscrição logo abaixo.
+Esse projeto foi desenvolvido durante o Ignite da Rocketseat! A ideia era desenvolver do um blog pago onde o usuário loga usando o GitHub e paga sua inscrição usando o Stripe. Usuários que não possuem a inscrição, só conseguem ver alguns parágrafos iniciais do post, oferecendo a inscrição logo abaixo.
   
 * Integração com o Prismic CMS, para trabalhar com toda a parte do sistema do blog.
 * Integração com o Stripe para a parte dos pagamentos das inscrições.
